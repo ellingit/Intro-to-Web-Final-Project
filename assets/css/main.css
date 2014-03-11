@@ -69,10 +69,11 @@ header a img {
 }
 
 .main_content {
-	width: 900px;
+	width: 880px;
 	min-height: 100%;
-	margin: 130px auto 45px auto;
-	padding: 10px;
+	margin: 130px auto 0 auto;
+	padding: 20px;
+	padding-bottom: 45px;
 	box-shadow: 0px 0px 10px #404040;
 	border: 1px solid #FFF;
 	background: #FFF;

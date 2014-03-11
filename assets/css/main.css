@@ -78,6 +78,20 @@ header a img {
 	border: 1px solid #FFF;
 	background: #FFF;
 }
+.main-content section {
+	width: 400px;
+	float: left;
+}
+aside {
+	height: 400px;
+	width: 300px;
+	border: 2px solid #404040;
+	overflow: visible;
+	float: right;
+	margin-right: -40px;
+	padding: 10px;
+	background: #FFF;
+}
 
 footer {
 	width: 954px;

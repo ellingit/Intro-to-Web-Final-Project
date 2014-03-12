@@ -1,0 +1,25 @@
+article {
+	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	margin-bottom: 10px;
+	height: 75px;
+	width: 500px;
+	overflow: hidden;
+}
+
+img, h3{
+	display:inline;
+	padding: 0px 0px 10px 10px;
+	line-height:100%;
+	vertical-align: middle;
+}
+
+img {
+	width: 100px;
+}
+
+h3 {
+	
+}
+
+

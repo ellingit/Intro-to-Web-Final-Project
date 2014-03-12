@@ -108,19 +108,25 @@ ul {
 }
 
 .gallery {
-	width: 860px;
+	width: 820px;
 	height: 130px;
 	margin: 0 auto;
+	position: absolute;
+	top: 160px;
+	left: 50%;
+	margin-left: -410px;
 	padding: 0;
 	overflow: hidden;
 }
 .gallery ul {
-	width: 860px;
+	width: 820px;
 	margin: 0 auto;
-	padding: 10px 20px;
+	padding: 10px 0;
+	position: relative;
 }
 .gallery ul li {
 	display: inline;
+	position: relative;
 	float; left;
 	margin: 0 5px;
 }

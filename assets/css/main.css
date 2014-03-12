@@ -134,8 +134,22 @@ ul {
 	position: relative;
 }
 
+.us {
+	text-align: center;
+	margin: 10px auto;
+}
+/*.us h2 {
+	border-top: 2px solid #404040;
+}*/
 .us img {
-	width: 120px;
+	width: 200px;
+}
+.us span, .us img {
+	line-height: 100%;
+	vertical-align: middle;
+}
+.us span {
+	padding: 10px;
 }
 
 footer {

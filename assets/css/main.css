@@ -134,6 +134,10 @@ ul {
 	position: relative;
 }
 
+.us img {
+	width: 120px;
+}
+
 footer {
 	width: 954px;
 	height: 40px;

@@ -107,6 +107,28 @@ ul {
 	float: right;
 }
 
+.gallery {
+	width: 860px;
+	height: 130px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+.gallery ul {
+	width: 860px;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+.gallery ul li {
+	display: inline;
+	float; left;
+	margin: 0 5px;
+}
+.gallery ul li img{
+	width: 150px;
+	position: relative;
+}
+
 footer {
 	width: 954px;
 	height: 40px;

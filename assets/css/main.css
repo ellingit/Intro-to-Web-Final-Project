@@ -85,7 +85,7 @@ header a img {
 }
 
 aside {
-	height: 400px;
+	height: 600px;
 	width: 300px;
 	border: 2px solid #333F50;
 	overflow: visible;
@@ -94,6 +94,10 @@ aside {
 	margin-right: -36px;
 	padding: 10px;
 	background: #FFF;
+}
+
+aside img {
+	width: 200px;
 }
 
 ul {

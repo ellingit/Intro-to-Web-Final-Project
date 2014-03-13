@@ -7,3 +7,7 @@ $(document).ready(function(){
 	};
 	setInterval(scroll, 3000);
 });
+
+function myScrollFunction(){
+	
+}

@@ -26,13 +26,17 @@ $(document).ready(function(){
 		// }
 	// }
 	$('.gallery').jcarousel({
-		wrap: 'both'
+		wrap: 'circular'
 	});
 	$('.gallery').first().click(function(){
-		$('.gallery').jcarousel('scroll', '-=1');
+		$('.gallery').jcarousel('scroll', '+=1');
 		console.log('clicked first');
 	});
 	$('.gallery').last().click(function(){
-		$('.gallery').jcarousel('scroll', '+=1');
+		$('.gallery').jcarousel('scroll', '-=1');
 	});
+	function scroll(){
+		$('.gallery').jcarousel('scroll', '+=1');
+	};
+	setInterval(scroll, 2000);
 });

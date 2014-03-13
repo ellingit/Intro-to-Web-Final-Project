@@ -114,13 +114,11 @@ ul {
 }
 
 .gallery {
-	width: 820px;
+	width: 800px;
 	height: 130px;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
-	left: 50%;
-	margin-left: -410px;
 	padding: 0;
 }
 .gallery ul {
@@ -131,7 +129,6 @@ ul {
 	list-style: none;
 }
 .gallery ul li {
-	/*display: inline;*/
 	margin: 0 5px;
 	position: relative;
 	float: left;

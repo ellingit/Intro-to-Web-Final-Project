@@ -191,3 +191,10 @@ footer span {
 	line-height: 40px;
 	vertical-align: middle;
 }
+
+
+#dialog{
+	border: 1px black solid;
+	background-color: white;
+	padding: 15px;
+}

@@ -1,3 +1,7 @@
+.main_content {
+	padding-top: 20px;
+}
+
 article {
 	border-bottom: 2px solid black;
 	border-left: 1px solid black;

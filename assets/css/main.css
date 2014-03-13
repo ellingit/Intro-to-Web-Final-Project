@@ -16,6 +16,11 @@ body {
 	background: #FFF;
 }
 
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
 header {
 	width: 960px;
 	height: 105px;
@@ -72,7 +77,7 @@ header a img {
 	width: 880px;
 	min-height: 100%;
 	margin: 130px auto 0 auto;
-	padding: 20px;
+	padding: 10px 20px;
 	padding-bottom: 45px;
 	box-shadow: 0px 0px 10px #404040;
 	border: 1px solid #FFF;
@@ -95,6 +100,7 @@ ul {
 	width: 300px;
 	clear: left;
 	list-style-type: none;
+	padding: 0;
 }
 
 .form {
@@ -111,23 +117,24 @@ ul {
 	width: 820px;
 	height: 130px;
 	margin: 0 auto;
-	position: absolute;
-	top: 160px;
+	position: relative;
+	overflow: hidden;
 	left: 50%;
 	margin-left: -410px;
 	padding: 0;
 }
 .gallery ul {
-	width: 820px;
-	margin: 0 auto;
-	padding: 10px 0;
+	width: 20000em;
+	margin: 0;
+	padding: 0;
 	position: relative;
+	list-style: none;
 }
 .gallery ul li {
-	display: inline;
-	position: relative;
-	float; left;
+	/*display: inline;*/
 	margin: 0 5px;
+	position: relative;
+	float: left;
 }
 .gallery ul li img{
 	width: 150px;
@@ -135,12 +142,15 @@ ul {
 }
 
 .us {
+	width: 500px;
+	float: left;
 	text-align: center;
-	margin: 10px auto;
+	margin: 0 auto 10px auto;
 }
-/*.us h2 {
-	border-top: 2px solid #404040;
-}*/
+.us h2 {
+	border: 2px solid #404040;
+	margin: 0;
+}
 .us img {
 	width: 200px;
 }

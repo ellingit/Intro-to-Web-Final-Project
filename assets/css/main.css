@@ -120,7 +120,7 @@ ul {
 .gallery {
 	width: 740px;
 	height: 130px;
-	margin: 0 auto;
+	margin: 20px auto;
 	position: relative;
 	overflow: hidden;
 	padding: 0;
@@ -162,6 +162,16 @@ ul {
 }
 .us span {
 	padding: 10px;
+}
+
+#map {
+	height: 400px;
+	width: 500px;
+	float: right;
+}
+
+.marketing {
+	float: left;	
 }
 
 footer {

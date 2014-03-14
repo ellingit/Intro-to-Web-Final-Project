@@ -39,7 +39,7 @@ $(document).ready(function(){
   		setAnimation(null);
   	}
 
-	setInterval(myScrollFunction, 2000);
+	setInterval(myScrollFunction, 3000);
 	initializeGoogleMap();
 	
 	$('article').click(function(){

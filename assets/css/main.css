@@ -197,4 +197,19 @@ footer span {
 	border: 1px black solid;
 	background-color: white;
 	padding: 15px;
+	min-width : 800px;
+}
+
+#dialog img{
+	width : 400px;
+	float : left;
+}
+
+
+
+#dialog p:last-child{
+	clear : both;
+}
+#dialog .para{
+	float : right;
 }

@@ -27,16 +27,9 @@ $(document).ready(function(){
 	    });
 	    setInterval(function(){
 	    	marker.setAnimation(google.maps.Animation.BOUNCE);
-	    	setTimeout(function(){marker.setAnimation(null);}, 1200);
-	    }, 3000);
+	    	setTimeout(function(){marker.setAnimation(null);}, 1380);
+	    }, 4000);
 	    
-  	}
-  	
-  	function makeItBounce(){
-  		setAnimation(google.maps.Animation.Bounce);
-  	}
-  	function makeItStop(){
-  		setAnimation(null);
   	}
 
 	setInterval(myScrollFunction, 3000);

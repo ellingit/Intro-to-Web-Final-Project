@@ -19,6 +19,11 @@ article img {
 }
 
 h3 {
-	
+	width: 500px;
 }
-
+.price {
+	display: inline;
+	float: right;
+	line-height: 75px;
+	vertical-align: middle;
+}

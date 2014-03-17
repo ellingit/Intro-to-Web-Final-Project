@@ -34,6 +34,4 @@ $(document).ready(function(){
 
 	setInterval(myScrollFunction, 3000);
 	initializeGoogleMap();
-	
-	
 });

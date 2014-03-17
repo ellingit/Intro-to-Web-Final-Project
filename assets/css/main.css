@@ -203,7 +203,11 @@ footer span {
 	line-height: 40px;
 	vertical-align: middle;
 }
-
+.social img {
+	float: left;
+	height: 30px;
+	margin: 5px;
+}
 
 #dialog{
 	border: 2px solid #404040;
@@ -258,4 +262,10 @@ footer span {
 }
 .ui-accordion-content {
 	height: 150px;
+}
+
+.mail {
+	float: right;
+	height: 30px;
+	margin: 5px;
 }

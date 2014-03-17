@@ -7,10 +7,10 @@ article {
 	overflow: hidden;
 }
 
-img, h3{
-	display:inline;
+.main_content img, h3{
+	display: inline;
 	padding: 0px 0px 10px 10px;
-	line-height:100%;
+	line-height: 100%;
 	vertical-align: middle;
 }
 

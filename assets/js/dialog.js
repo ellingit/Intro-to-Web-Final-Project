@@ -12,16 +12,8 @@ $(document).ready(function(){
 			modal: true,
 			position: { my: "right center", at: "center", of: window },
 			draggable: true,
-			buttons: [
-				{text: "prev", click: function(){
-					//previous car
-				}}, 
-				{text: "next", click: function(){
-					//next car
-				}}
-			],
-			beforeClose: function(event, ui) {
-				$("html").css({ overflow: 'inherit' })
+			close: function(event, ui) {
+				$("html").css({ overflow: 'auto' })
 			}			
 		});
 	});
@@ -29,4 +21,9 @@ $(document).ready(function(){
 		function(){$(this).css({'width': '120','padding-left': '0'})},
 		function(){$(this).css({'width': '100','padding-left': '10'})}
 	);
+	$('.accordion').accordion({
+		active: false,
+		collapsible: true,
+		header: "h3"
+	});
 });

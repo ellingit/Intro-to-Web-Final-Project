@@ -30,3 +30,27 @@ h3 {
 	line-height: 75px;
 	vertical-align: middle;
 }
+
+.ui-accordion {
+	clear: both;
+	padding-top: 20px;
+}
+.ui-accordion h3 {
+	font-size: 1em;
+}
+.ui-accordion .ui-accordion-header {
+	height: 15px;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 0 0 2px 0;
+	padding: .5em .5em .5em .7em;
+	background: #404040;
+	color: white;
+	border-radius: 5px;
+}
+.ui-accordion .ui-accordion-content {
+	height: 20px;
+	border: 0;
+	overflow: auto;
+}

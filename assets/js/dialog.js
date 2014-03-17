@@ -1,10 +1,18 @@
 $(document).ready(function(){
+	$('#dialog').css('height', '0');
 	var $images = $('section article img');
 	$images.click(function(){
+		$('#dialog').css('height', '500');
 		$('#dialog').dialog({
+			create: function(event, ui) {
+				$("html").css({ overflow: 'hidden' })
+			},
 			modal: true,
 			position: { my: "right center", at: "center", of: window },
-			draggable: true			
+			draggable: true,
+			beforeClose: function(event, ui) {
+				$("html").css({ overflow: 'inherit' })
+			}			
 		});
 	});
 });

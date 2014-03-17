@@ -2,9 +2,8 @@ $(document).ready(function(){
 	$('#dialog').css('height', '0');
 	var $images = $('section article img');
 	$images.click(function(){
-		$('#dialog').css('height', '500');
 		$('#dialog').dialog({
-			create: function(event, ui) {
+			open: function(event, ui) {
 				$("html").css({ overflow: 'hidden' })
 			},
 			modal: true,

@@ -17,6 +17,9 @@ article {
 article img {
 	width: 100px;
 }
+.main_content img:hover {
+	cursor:pointer;
+}
 
 h3 {
 	width: 500px;

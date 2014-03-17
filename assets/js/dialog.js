@@ -10,6 +10,8 @@ $(document).ready(function(){
 			modal: true,
 			position: { my: "right center", at: "center", of: window },
 			draggable: true,
+			buttons: [{text: "prev", click: function(){}}, 
+						{text: "next", click: function(){}}],
 			beforeClose: function(event, ui) {
 				$("html").css({ overflow: 'inherit' })
 			}			

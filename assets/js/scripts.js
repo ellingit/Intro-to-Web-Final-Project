@@ -35,7 +35,5 @@ $(document).ready(function(){
 	setInterval(myScrollFunction, 3000);
 	initializeGoogleMap();
 	
-	$('article').click(function(){
-		$('#dialog').css('visibility', 'visible');
-	});
+	
 });

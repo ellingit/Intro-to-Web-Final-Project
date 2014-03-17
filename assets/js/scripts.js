@@ -23,7 +23,7 @@ $(document).ready(function(){
 	    	position: new google.maps.LatLng(40.766257, -111.890790),
 	    	icon: 'assets/images/star.png',
 	    	map: map,
-	    	title: "Come Visit Us!\n   123 S Main"
+	    	title: "Come Visit Us!\n   143 S Main"
 	    });
 	    setInterval(function(){
 	    	marker.setAnimation(google.maps.Animation.BOUNCE);
